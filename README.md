@@ -17,7 +17,7 @@ The following was the workflow on the project:
     
     c. Adaboost Regressor
     
-    d. Random Forest Regressor (I tried to use hyperparameter optimiser - SMAC for this task)
+    d. Random Forest Regressor (I tried to use hyperparameter optimiser - SMAC in this task)
     
   
 
