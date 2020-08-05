@@ -1,4 +1,4 @@
-# FIFAvsRealLife
+# FIFA Rating Prediction Using Real World Data
 ## Motivation
 FIFA rating is considered to be one of the most common metric to assemble a football team in FIFA. It is nearly precise and gives a good quantitative idea about the player's attributes for that season. The motivation of the project was to understand whether readily available, real world player performance data can be used to predict sophisticated FIFA ratings. 
 
