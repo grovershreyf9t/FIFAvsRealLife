@@ -7,17 +7,6 @@ In order to do that, I used the available Kaggle dataset - https://www.kaggle.co
 
 ## Process
 The following was the workflow on the project:
-1.  I preprocessed the data to remove unnecessary columns, merge relevant data and do other feature processing tasks to retain relevant features. The idea was to use as less FIFA     centric features as possible to keep the analysis as relevant to the real world data as possible.
-2.  I performed exploratory data analysis to understand how various features are correlated to one another
-3.  I tried various models for the prediction task
-
-    a. Linear Regression
-    
-    b. Decision Trees
-    
-    c. Adaboost Regressor
-    
-    d. Random Forest Regressor (I tried to use hyperparameter optimiser - SMAC in this task)
-    
-  
-
+1.  Preprocessed the data to extract relevant features, split the data based on position (GK, DEF, MID, FWD) and perform standardisation
+2.  Performed exploratory data analysis to understand how various features are correlated to one another and plotted the correlation coefficients using heat map
+3.  Tuned hyperparameters using GridSearchCV and BayesSearchCV and implemented various models for the prediction task (Ridge regression, Decision Tree regression, AdaBoost             regression, XGBoost regression)
